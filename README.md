@@ -10,6 +10,7 @@ npm install @andreseloysv/filtermap
 
 ## Usage
 
+Javascript
 ```javascript
 const filterMap = require('filter-map')
 
@@ -19,6 +20,7 @@ const result = filterAndMap(numbers, x => x < 3, x => `Number: ${x}`);
 // result will be ['Number: 1', 'Number: 2']
 ```
 
+Typescript
 ```typescript
 import { filterMap } from '@andreseloysv/filtermap';
 
