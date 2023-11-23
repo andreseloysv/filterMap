@@ -19,8 +19,6 @@ const result = filterAndMap(numbers, x => x < 3, x => `Number: ${x}`);
 // result will be ['Number: 1', 'Number: 2']
 ```
 
-If you only want a certain number of entries in the filtered Map or Object, you can specify a numeric limit parameter:
-
 ```typescript
 import { filterMap } from '@andreseloysv/filtermap';
 
