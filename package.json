@@ -2,7 +2,8 @@
   "name": "@andreseloysv/filtermap",
   "version": "1.0.0",
   "description": "FilterMap",
-  "main": "index.js",
+  "main": "dist/filterMap.js",
+  "types": "src/filterMap.ts",
   "scripts": {
     "test": "npx jest --clearCache && npx jest --no-cache --logHeapUsage",
     "build": "tsc"
