@@ -12,7 +12,7 @@ npm install @andreseloysv/filtermap
 
 Javascript
 ```javascript
-const filterMap = require('filter-map')
+const filterMap = require('@andreseloysv/filtermap')
 
 // Example usage:
 const numbers = [1, 2, undefined, 3];
